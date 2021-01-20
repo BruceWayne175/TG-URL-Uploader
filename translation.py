@@ -1,5 +1,6 @@
 class Translation(object):
-    START_TEXT = """<b>Hello {0}
+    START_TEXT = """<b>Hello Dear👋
+
 This is a Telegram URL Upload Bot!👾
 
 Please send me any direct download URL Link, i can upload to telegram as File/Video
@@ -10,10 +11,10 @@ Please send me any direct download URL Link, i can upload to telegram as File/Vi
 
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>Sorry.. This feature is not Available anymore ☹️ \nSend /help to go back Main menu</b>"
-    FORMAT_SELECTION = "**Select the desired format:** <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
+    UPGRADE_TEXT = "<b>Sorry.. This feature is not Available anymore ☹️ \nSend /start to go back Main menu</b>"
+    FORMAT_SELECTION = "●Select the desired format: <a href='{}'>file size might be approximate</a> \n●If you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\n●You can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
+<b>URL | filename | username | password</b>"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "<b>📥Downloading To Our Servers</b>"
     UPLOAD_START = "<b>📤Uploading To Telegram</b>"
@@ -31,24 +32,27 @@ URL | filename | username | password"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
---------
-<b>×Telegram ID: <code>{}</code>
-×Plan name: Free User
-×By: @BruceSL</b>"""
-    HELP_USER = """<b>Hi {0} 👋
+    CURENT_PLAN_DETAILS = """<b>Current plan details 📒</b>
+
+<b>➻Telegram ID: <code>{}</code>
+➻Plan name: Free User
+
+♥️Made By: @BruceSL</b>"""
+    HELP_USER = """<b>Hello Dear👋
     
 Follow the instructions below..
     
 1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).
 3. Select the button.
-   ●SVideo - Give File as video with Screenshots
-   ●DFile  - Give File with Screenshots
-   ●Video  - Give File as video without Screenshots
-   ●DFile  - Give File without Screenshots
+   ●SVideo -</b> Give File as video with SS
+   </b>●DFile  -</b> Give File with SS
+   </b>●Video  -</b> Give File as video without SS
+   </b>●DFile  -</b> Give File without SS
+
+SS = Screenshots
    
-Send /me to know current plan details
+<b>Send /me to know current plan details
 
 ♥️Made By : @BruceSL</b>"""
 
