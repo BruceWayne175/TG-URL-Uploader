@@ -13,7 +13,7 @@ Please send me any direct download URL Link, i can upload to telegram as File/Vi
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>Sorry.. This feature is not Available anymore ☹️ \nSend /start to go back Main menu</b>"
     FORMAT_SELECTION = "<b>●Select the desired format: <a href='{}'>file size might be approximate</a> \n\n●If you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\n\n●You can use /deletethumbnail to delete the auto-generated thumbnail.</b>"
-    SET_CUSTOM_USERNAME_PASSWORD = """\n\n<b>If you want to download premium videos, provide in the following format:</b>
+    SET_CUSTOM_USERNAME_PASSWORD = """\n<b>●If you want to download premium videos, provide in the following format:</b>
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "<b>📥Downloading To Our Servers</b>"
@@ -21,7 +21,7 @@ URL | filename | username | password"""
     RCHD_BOT_API_LIMIT = "Size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "📥Downloaded in {} seconds.\n📒Detected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful."
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "<b>📥Downloaded in {} seconds. \n📤Uploaded in {} seconds. \n\n🧿Uploaded By : @BruceSL</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "<b>➻Downloaded in {} seconds. \n➻Uploaded in {} seconds. \n\n♥️By : @BruceSL</b>"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@BruceSL</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
@@ -46,11 +46,11 @@ Follow the instructions below..
 2. Send Custom Thumbnail (Optional).
 3. Select the button.
    ●SVideo -</b> Give File as video with SS
-   </b>●DFile  -</b> Give File with SS
-   </b>●Video  -</b> Give File as video without SS
-   </b>●DFile  -</b> Give File without SS
+   <b>●DFile  -</b> Give File with SS
+   <b>●Video  -</b> Give File as video without SS
+   <b>●DFile  -</b> Give File without SS
 
-SS = Screenshots
+<b>SS = Screenshots</b>
    
 <b>Send /me to know current plan details
 
