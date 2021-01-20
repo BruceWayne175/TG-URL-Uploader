@@ -1,12 +1,12 @@
 class Translation(object):
-    START_TEXT = """Hello,
+    START_TEXT = """<b>Hello {0}
 This is a Telegram URL Upload Bot!👾
 
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+Please send me any direct download URL Link, i can upload to telegram as File/Video
 
 /help for more details..
 
-♥️Made By: @BruceSL"""
+♥️Made By: @BruceSL</b>"""
 
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
@@ -15,18 +15,18 @@ This is a Telegram URL Upload Bot!👾
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "⏬Trying to download"
-    UPLOAD_START = "⏫Trying to upload"
+    DOWNLOAD_START = "<b>⏬Downloading To Our Servers</b>"
+    UPLOAD_START = "<b>⏫Uploading To Telegram</b>"
     RCHD_BOT_API_LIMIT = "Size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "⏬Downloaded in {} seconds.\n📒Detected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful."
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n⏫Uploaded By : @BruceSL \nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "<b>⏬Downloaded in {} seconds. \n⏫Uploaded in {} seconds. \n🧿Uploaded By : @BruceSL</b>"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@BruceSL</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
+    SAVED_RECVD_DOC_FILE = "☑️Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
@@ -36,7 +36,7 @@ URL | filename | username | password"""
 <b>×Telegram ID: <code>{}</code>
 ×Plan name: Free User
 ×By: @BruceSL</b>"""
-    HELP_USER = """Hi Boss 👋
+    HELP_USER = """<b>Hi {0} 👋
     
 Follow the instructions below..
     
@@ -50,7 +50,7 @@ Follow the instructions below..
    
 Send /me to know current plan details
 
-♥️Made By : @BruceSL"""
+♥️Made By : @BruceSL</b>"""
 
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
