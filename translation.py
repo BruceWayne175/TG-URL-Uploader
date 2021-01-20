@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """<b>Hello Dear👋
+    START_TEXT = """<b>Hello <a href='tg://user?id={}'>{}</a>👋
 
 This is a Telegram URL Upload Bot!👾
 
