@@ -1,6 +1,6 @@
 class Translation(object):
     START_TEXT = """<b>Hello tg://user?id=<user_id>👋
-
+<a href="tg://user?id=123456789">inline mention of a user</a>
 This is a Telegram URL Upload Bot!👾
 
 Please send me any direct download URL Link, i can upload to telegram as File/Video
