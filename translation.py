@@ -36,24 +36,19 @@ URL | filename | username | password"""
 <b>×Telegram ID: <code>{}</code>
 ×Plan name: Free User
 ×By: @BruceSL</b>"""
-    HELP_USER = """Hi, 
+    HELP_USER = """Hi Boss 👋
     
 Follow the instructions below..
     
 1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).
 3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
+   ●SVideo - Give File as video with Screenshots
+   ●DFile  - Give File with Screenshots
+   ●Video  - Give File as video without Screenshots
+   ●DFile  - Give File without Screenshots
    
-
-
 Send /me to know current plan details
-
-
-
 
 ♥️Made By : @BruceSL"""
 
