@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """<b>Hello <a href='tg://user?id={}'>{}</a>👋
+    START_TEXT = """<b>Hello tg://user?id=<user_id>👋
 
 This is a Telegram URL Upload Bot!👾
 
@@ -38,7 +38,7 @@ URL | filename | username | password"""
 ➻Plan name: Free User
 
 ♥️Made By: @BruceSL</b>"""
-    HELP_USER = """<b>Hello <a href='tg://user?id={}'>{}</a>👋
+    HELP_USER = """<b>Hello <a href='tg://user?id=<user_id>'>{}</a>👋
     
 Follow the instructions below..
     
