@@ -1,6 +1,6 @@
 class Translation(object):
-    START_TEXT = """<b>Hello tg://user?id=<user_id>👋
-<a href="tg://user?id=123456789">inline mention of a user</a>
+    START_TEXT = """<b>Hello Dear👋
+
 This is a Telegram URL Upload Bot!👾
 
 Please send me any direct download URL Link, i can upload to telegram as File/Video
@@ -38,7 +38,7 @@ URL | filename | username | password"""
 ➻Plan name: Free User
 
 ♥️Made By: @BruceSL</b>"""
-    HELP_USER = """<b>Hello <a href='tg://user?id=<user_id>'>{}</a>👋
+    HELP_USER = """<b>Hello Dear👋
     
 Follow the instructions below..
     
